@@ -10,46 +10,12 @@ const {
 } = require("../../utills/function");
 const { EXPIRES_IN, USERS_ROLES } = require("../../utills/constans");
 const createHttpError = require("http-errors");
-const { checkOtpSchema } = require("./auth.schema");
+
 const { sendSMS } = require("../sms/Kavenegar");
 require("dotenv").config();
 // const redis_client = require('./../../../redis_connect');
 
 module.exports = new (class extends controller {
-  async register(req, res, next) {
-    let user = await this.User.findOne({ email: req.body.email });
-
-    if (user) {
-      return this.response({
-        res,
-        code: 400,
-        message: "this user already register",
-      });
-    }
-    user = new this.User({
-      email: req.body.email,
-      password: req.body.password,
-      isDoctor: req.body.isDoctor,
-    });
-
-    const salt = await bcrypt.genSalt(10);
-    user.password = await bcrypt.hash(user.password, salt);
-    const response = await user.save();
-    console.log(response);
-
-    const verificationCode = await email.sendMail(user.email);
-    this.response({
-      res,
-      message: "the user successfully registered",
-      data: {
-        _id: user._id,
-        email: user.email,
-        code: verificationCode,
-      },
-    });
-
-    // res.redirect(307, "/api/auth//login");
-  }
   // *********************check verification code**********************
   async checkVerifyCode(req, res) {
     try {
@@ -201,55 +167,9 @@ module.exports = new (class extends controller {
     return !!updateResult.modifiedCount;
   }
   // *********************login**********************
-  async getRoles(user) {
-    try {
-      const isDoctor = user.isDoctor && user.conformIsDoctor;
-      const guardianRelatedPatient = await GuardianToPatient.find({
-        guardian: user._id,
-      });
-      const isGuardian = guardianRelatedPatient.length > 0;
-      const patientInf = await Patient.find({ user: user._id });
-      const isPatient = patientInf.length > 0;
-
-      const userRole = {
-        isAdmin: user.isadmin,
-        isDoctor,
-        isPatient,
-        isGuardian,
-      };
-
-      console.log(`getRoles userRole ${JSON.stringify(userRole)}`);
-      return userRole;
-    } catch (error) {
-      console.error(`getRoles error ${error}`);
-      throw error;
-    }
-  }
 
   // *********************login**********************
-  async logout(req, res) {
-    const token = req.headers.authorization.split(" ")[1];
-    console.log(`logout:${req.headers.authorization}`);
-    if (!token) res.status(401).send("access denied");
-    try {
-      console.log(`token:${token}`);
 
-      const decoded = jwt.verify(token, process.env.JWT_ACCESS_SECRET);
-      req.userData = decoded;
-      const result = await this.User.findOneAndUpdate(
-        { _id: decoded.sub },
-        { $set: { lastRefreshToken: "" } }
-      );
-
-      return res.json({ status: true, message: "success." });
-    } catch (error) {
-      return res.status(401).json({
-        status: true,
-        message: "Your session is not valid.",
-        data: error,
-      });
-    }
-  }
   async GetAccessToken(req, res) {
     try {
       const user_id = req.userData.sub;
