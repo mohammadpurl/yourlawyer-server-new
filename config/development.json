@@ -1,0 +1,8 @@
+{
+    "name": "Patient-X",
+    "db": {
+        "address":"mongodb://localhost:27017/patientx"
+
+    }
+
+}

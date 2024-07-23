@@ -1,0 +1,23 @@
+
+[
+    {"name": "Father is alive or deceased", "code": 1},
+    {"name": "(Father) age", "code": 2},
+    {"name": "(Father) health status", "code": 3},
+    {"name": "at what age did he pass", "code": 4},
+    {"name": "what was the cause?", "code": 5},  
+
+    {"name": "Mother is alive or deceased", "code": 6},
+    {"name": "(Mother) age", "code": 7},
+    {"name": "at what age did she pass", "code": 8},
+    {"name": "what was the cause?", "code": 9}, 
+    {"name": "(Mother) health status", "code": 10},
+
+    {"name": "Sibling is alive or deceased", "code": 11},
+    {"name": "(Sibling) age", "code": 12},
+    {"name": "(Sibling) health status", "code": 13},
+    {"name": "at what age did he pass", "code": 14},
+    {"name": "what was the cause?", "code": 15}
+    
+    
+  ]
+  

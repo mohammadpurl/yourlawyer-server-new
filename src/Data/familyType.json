@@ -1,0 +1,6 @@
+[
+    {"name": "Father", "code": 1},
+    {"name": "Mother", "code": 2},
+    {"name": "Siblings", "code": 3},
+    {"name": "Children", "code": 4}
+  ]

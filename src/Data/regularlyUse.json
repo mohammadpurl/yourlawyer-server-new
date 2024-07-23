@@ -1,0 +1,9 @@
+[
+    {"name": "more than once a day", "code": 1},
+    {"name": "daily", "code": 2},
+    {"name": "every few days", "code": 3},
+    {"name": "weekly", "code": 4},
+    {"name": "monthly", "code": 5}
+
+  ]
+  

@@ -1,0 +1,8 @@
+[
+    {"name": "Single", "code": 1},
+    {"name": "Defacto", "code": 2},
+    {"name": "Married", "code": 3},
+    {"name": "Divorced", "code": 4},
+    {"name": "Widow", "code": 5}
+  ]
+  

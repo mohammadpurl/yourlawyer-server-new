@@ -1,0 +1,6 @@
+[
+    {"code":1, "description":"Do you suffer for erectile dysfunction", "type":"check"},
+    {"code":2, "description":"Do have have a reduced libido", "type":"check"},
+    {"code":3, "description":"Do you have frequent urinations in the day", "type":"check"},
+    {"code":4, "description":"Do you have frequent urinations in the night", "type":"check"}
+]

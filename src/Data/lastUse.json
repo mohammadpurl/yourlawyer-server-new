@@ -1,0 +1,10 @@
+[
+    {"name": "today", "code": 1},
+    {"name": "yesterday", "code": 2},
+    {"name": "a few days ago", "code": 3},
+    {"name": "last week", "code": 4},
+    {"name": "last month", "code": 5},
+    {"name": "few months ago", "code": 6},
+    {"name": "6 or more months ago", "code": 7},
+    {"name": "over 12 months ago", "code": 8}
+  ]

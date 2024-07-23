@@ -1,0 +1,14 @@
+[
+    {"name": "Alcohol", "code": 1},
+    {"name": "Tobacco (including vapes with or without tobacco, cigarettes, cigars, cloves", "code": 2},
+    {"name": "Cannabis (medicinal, recreational, with or without psychoactives)", "code": 3},
+    {"name": "Stimulants (Cocaine, crack, methamphetamines, speed)", "code": 4},
+    {"name": "Amphetamines (Ritalin, Benzadrine, Dexedrine)", "code": 5},
+    {"name": "Benzodiazephines/Tranquilizers (Valium, librium, Halcion, Xanax, Diazepam, 'roofies')", "code": 6},
+    {"name": "Sedatives/Hypnotics/Barbiturates (Amytal, Seconal, Dalmane, Quaalude, Phenobarbital)", "code": 7},
+    {"name": "Heroin", "code": 8},
+    {"name": "Methadone (prescribed or illegal)", "code": 9},
+    {"name": "Opioids (Oxycodone, Oxycotin, Demerol, Morphione, Dilaudid, Opium, Percodan)", "code": 10},
+    {"name": "Hallucinogens (LSD, PCP, STP, MDA, DAT, mescaline, peyote, mushrooms, ecstacy, nitrous oxide)", "code": 11},
+    {"name": "Inhalents (Glue, gasoline, aerosols, paint thinner, poopers, rush)", "code": 12}
+  ]

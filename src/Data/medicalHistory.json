@@ -1,0 +1,44 @@
+[
+    {"name": "Diabetes", "code": 1 , "type": "boolean"},
+    {"name": "High Blood Pressure", "code": 2 , "type": "boolean"},
+    {"name": "High Cholesterol", "code": 3, "type": "boolean"},
+    {"name": "Hypothyroidism", "code": 4, "type": "boolean"},
+
+    {"name": "Goiter", "code": 5, "type": "boolean"},
+    {"name": "Cancer (type)", "code": 6, "type": "text"},
+    
+    {"name": "Leukemia", "code": 8, "type": "boolean"},
+
+    {"name": "Psoriasis", "code": 9, "type": "boolean"},
+    {"name": "Angina", "code": 10, "type": "boolean"},
+    {"name": "Heart Problems", "code": 11, "type": "boolean"},
+    {"name": "Heart Murmur", "code": 12, "type": "boolean"},
+
+    {"name": "Pneumonia", "code": 13, "type": "boolean"},
+    {"name": "Pulmonary Embolism", "code": 14, "type": "boolean"},
+    {"name": "Asthma", "code": 15, "type": "boolean"},
+    {"name": "Emphysema", "code": 16, "type": "boolean"},
+    
+    {"name": "Stroke", "code": 7, "type": "boolean"},
+    {"name": "Epilepsy (Seizures)", "code": 17, "type": "boolean"},
+    {"name": "Cataracts ", "code": 18, "type": "boolean"},
+    {"name": "Kidney Disease", "code": 19, "type": "boolean"},
+    {"name": "Kidney Stones", "code": 20, "type": "boolean"},
+
+
+    {"name": "Crohn’s Disease", "code": 21, "type": "boolean"},
+    {"name": "Colitis", "code": 22, "type": "boolean"},
+
+    {"name": "Anemia", "code": 23, "type": "boolean"},
+    {"name": "Jaundice", "code": 24, "type": "boolean"},
+    {"name": "Hepatitis", "code": 25, "type": "boolean"},
+    {"name": "Stomach or Peptic Ulcer", "code": 26, "type": "boolean"},
+
+    {"name": "Rheumatic Fever", "code": 27, "type": "boolean"},
+    {"name": "Tuberculosis", "code": 28, "type": "boolean"},
+    {"name": "HIV/AIDS", "code": 29, "type": "boolean"},
+    {"name": "OTHER STD", "code": 30, "type": "boolean"},
+    {"name": "Other Medical Conditions (please list):", "code": 31, "type": "test"}
+    
+  ]
+  

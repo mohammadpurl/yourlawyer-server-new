@@ -1,0 +1,22 @@
+
+[
+    {"name": "Hepatitis B (HepB)", "code": 1},
+    {"name": "Diphtheria", "code": 2},
+    {"name": "Tetanus", "code": 3},
+    {"name": "Acellular Pertussia (Whooping Cough)", "code": 4},
+    {"name": "Heamophilus Influenza type B", "code": 5},
+    {"name": "Inactivated Poliomyelitis (Polio)", "code": 6},
+    {"name": "Influenza", "code": 7},
+    {"name": "Pneumococcal", "code": 8},
+    {"name": "Rotavirus", "code": 9},
+    {"name": "Rotavirus B", "code": 10},
+    {"name": "Meningococcal B", "code": 11},
+    {"name": "Meningococcal C", "code": 12},
+    {"name": "Meningococcal ACWY", "code": 13},
+    {"name": "Measle, mumps and Rubella (MMR)", "code": 14},
+    {"name": "Varicella (Chickenpox)", "code": 15},
+    {"name": "Flu shot", "code": 16},
+    {"name": "COVID-19 Vaccines", "code": 17},
+    {"name": "Zoster", "code": 18}
+  ]
+  

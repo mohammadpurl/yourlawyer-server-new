@@ -1,0 +1,26 @@
+[
+    {"name": "African Traditional & Diasporic", "code": 1},
+    {"name": "Agnostic", "code": 2},
+    {"name": "Atheist", "code": 3},
+    {"name": "Baha'i", "code": 4},
+    {"name": "Buddhism", "code": 5},
+    {"name": "Cao Dai", "code": 6},
+    {"name": "Chinese traditional religion", "code": 7},
+    {"name": "Christianity", "code": 8},
+    {"name": "Hinduism", "code": 9},
+    {"name": "Islam", "code": 10},
+    {"name": "Jainism", "code": 11},
+    {"name": "Juche", "code": 12},
+    {"name": "Judaism", "code": 13},
+    {"name": "Neo-Paganism", "code": 14},
+    {"name": "Non-religious", "code": 15},
+    {"name": "Rastafarianism", "code": 16},
+    {"name": "Secular", "code": 17},
+    {"name": "Shinto", "code": 18},
+    {"name": "Sikhism", "code": 19},
+    {"name": "Spiritism", "code": 20},
+    {"name": "Tenrikyo", "code": 21},
+    {"name": "Unitarian-Universalism", "code": 22},
+    {"name": "Zoroastrianism", "code": 23}
+  ]
+  

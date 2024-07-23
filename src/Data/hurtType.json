@@ -1,0 +1,6 @@
+[
+    {"name": "PAIN", "code": 1},
+    {"name": "Concern", "code": 2},
+    {"name": "Swelling", "code": 3},
+    {"name": "Bleeding", "code": 4}
+  ]

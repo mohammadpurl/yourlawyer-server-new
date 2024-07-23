@@ -1,0 +1,13 @@
+[
+    {"code":1, "description":"Age of first period", "type":"text"},
+    {"code":2, "description":"Age of Pregnancies", "type":"text"},
+    {"code":3, "description":"Age of Miscarriages", "type":"text"},
+    {"code":4, "description":"Age of Abortions", "type":"text"},
+    {"code":5, "description":"Have you reached menopause? Yes / No At what age?", "type":"text"},
+    {"code":6, "description":"Do you have regular periods? Yes / No", "type":"text"},
+    {"code":7, "description":"Age of first period", "type":"text"},
+    {"code":8, "description":"Abnormal Pap smear", "type":"check"},
+    {"code":9, "description":"Irregular periods", "type":"check"},
+    {"code":10, "description":"Bleeding between periods", "type":"check"},
+    {"code":11, "description":"PMS", "type":"check"}
+]
