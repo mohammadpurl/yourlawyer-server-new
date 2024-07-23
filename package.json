@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set DEBUG=app.main && nodemon index"
+    "start": "nodemon node index.js"
   },
   "keywords": [],
   "author": "",
